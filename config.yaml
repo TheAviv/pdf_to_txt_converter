@@ -1,0 +1,33 @@
+# Input folder containing the PDF files to be converted
+input_folder: 'Source_PDF'
+
+# Output folder for the converted TXT files
+output_folder: 'Converted_TXT'
+
+# Path to the Tesseract OCR executable
+# Example paths:
+#   - macOS (Homebrew): '/usr/local/opt/tesseract/bin/tesseract'
+#   - Linux: '/usr/bin/tesseract'
+#   - Windows: 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+tesseract_path: '/usr/local/opt/tesseract/bin/tesseract'
+
+# Output folder for the converted DOCX files
+docx_output_folder: 'Converted_DOCX'
+
+# OCR language
+ocr_lang: 'eng'
+
+# OCR engine mode (0-3)
+ocr_engine_mode: 1
+
+# Page segmentation mode (0-3)
+page_segmentation_mode: 3
+
+# Output file prefix
+output_prefix: ''
+
+# Output file suffix
+output_suffix: ''
+
+# Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+logging_level: 'INFO'
