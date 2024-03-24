@@ -31,3 +31,9 @@ output_suffix: ''
 
 # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
 logging_level: 'INFO'
+
+# Input folder containing TXT files to do a word count for
+input_folder_for_word_count: "Converted_TXT"
+
+# Output path for the word count CSV file
+output_path_for_word_count: "Converted_TXT/Word_count/word_count.csv"
